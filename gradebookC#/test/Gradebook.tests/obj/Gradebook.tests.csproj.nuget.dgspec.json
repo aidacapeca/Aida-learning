@@ -1,0 +1,130 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/aida/Documents/Aida-learning/gradebookC#/test/Gradebook.tests/Gradebook.tests.csproj": {}
+  },
+  "projects": {
+    "/home/aida/Documents/Aida-learning/gradebookC#/src/Gradebook/Gradebook.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/aida/Documents/Aida-learning/gradebookC#/src/Gradebook/Gradebook.csproj",
+        "projectName": "Gradebook",
+        "projectPath": "/home/aida/Documents/Aida-learning/gradebookC#/src/Gradebook/Gradebook.csproj",
+        "packagesPath": "/home/aida/.nuget/packages/",
+        "outputPath": "/home/aida/Documents/Aida-learning/gradebookC#/src/Gradebook/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/aida/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.302/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/aida/Documents/Aida-learning/gradebookC#/test/Gradebook.tests/Gradebook.tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/aida/Documents/Aida-learning/gradebookC#/test/Gradebook.tests/Gradebook.tests.csproj",
+        "projectName": "Gradebook.tests",
+        "projectPath": "/home/aida/Documents/Aida-learning/gradebookC#/test/Gradebook.tests/Gradebook.tests.csproj",
+        "packagesPath": "/home/aida/.nuget/packages/",
+        "outputPath": "/home/aida/Documents/Aida-learning/gradebookC#/test/Gradebook.tests/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/aida/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "/home/aida/Documents/Aida-learning/gradebookC#/src/Gradebook/Gradebook.csproj": {
+                "projectPath": "/home/aida/Documents/Aida-learning/gradebookC#/src/Gradebook/Gradebook.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.5.0, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[1.2.0, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.0, )"
+            },
+            "xunit.runner.visualstudio": {
+              "target": "Package",
+              "version": "[2.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.302/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
